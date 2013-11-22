@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        android:shrinkColumns="*">
+        <TableRow android:layout_weight="1" android:layout_height="0dp">
+            <ImageButton android:id="@+id/btnImage1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitXY"/>
+            <ImageButton android:id="@+id/btnImage2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitXY"/>
+            <ImageButton android:id="@+id/btnImage3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitXY"/>
+        </TableRow>
+        <TableRow android:layout_weight="1" android:layout_height="0dp">
+            <ImageButton android:id="@+id/btnImage4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitXY"/>
+            <ImageButton android:id="@+id/btnImage5" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitXY"/>
+            <ImageButton android:id="@+id/btnImage6" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitXY"/>
+        </TableRow>
+        <TableRow android:layout_weight="1" android:layout_height="0dp">
+            <ImageButton android:id="@+id/btnImage7" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitXY"/>
+            <ImageButton android:id="@+id/btnImage8" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitXY"/>
+            <ImageButton android:id="@+id/btnImage9" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitXY"/>
+        </TableRow>
+    </TableLayout>
+
+    </LinearLayout>
